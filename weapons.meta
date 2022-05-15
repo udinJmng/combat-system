@@ -4863,8 +4863,8 @@
 <RecoilAccuracyToAllowHeadShotPlayer value="0.175000" />
 <MinHeadShotDistancePlayer value="5.000000" />
 <MaxHeadShotDistancePlayer value="40.000000" />
-<HeadShotDamageModifierPlayer value="100.000000" />
-<Damage value="80.000000" />
+<HeadShotDamageModifierPlayer value="0.000000" />
+<Damage value="35.000000" />
 <DamageTime value="0.000000" />
 <DamageTimeInVehicle value="0.000000" />
 <DamageTimeInVehicleHeadShot value="0.000000" />
@@ -5112,7 +5112,7 @@
           </AttachPoints>
           <GunFeedBone />
           <TargetSequenceGroup />
-<WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
+          <WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover OnlyFireOneShotPerTriggerPress AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock DisableIdleAnimationFilter UseFPSAimIK UseFPSSecondaryMotion DisableIdleAnimationFilterWhenReloading BlockFirstPersonStateTransitionWhileFiring IdlePhaseBasedOnTrigger IncendiaryGuaranteedChance UseRevolverBehaviour UseInstantAnimBlendFromFireToIdle</WeaponFlags>
 <TintSpecValues ref="TINT_DEFAULT" />
 <FiringPatternAliases ref="FIRING_PATTERN_PISTOL" />
 <ReloadUpperBodyFixupExpressionData ref="default" />
